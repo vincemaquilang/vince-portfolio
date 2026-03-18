@@ -367,7 +367,7 @@ $(function() {
 
   ***************************/
   if ($("div").is("#map")) {
-    mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
+    mapboxgl.accessToken = window.APP_CONFIG.MAPBOX_TOKEN;
     var map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/stoscar/ckk6qpt2h0yi517o77x3tw34f',
@@ -685,7 +685,7 @@ $(function() {
 
     ***************************/
     if ($("div").is("#map")) {
-      mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
+      mapboxgl.accessToken = window.APP_CONFIG.MAPBOX_TOKEN;
       var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/stoscar/ckk6qpt2h0yi517o77x3tw34f',
