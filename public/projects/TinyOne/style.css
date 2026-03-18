@@ -1,0 +1,102 @@
+.txt{
+	width:400px;padding:10px;
+}
+.inspire{
+	font-size:48px;text-align:center;
+}
+.arrow{
+	text-align: center;
+}
+.btt{
+	margin-top:15.5%;margin-bottom:15%;
+}
+.icon{
+	text-align: right;
+}
+.header{
+	height:650px;background-color:#fcdb00;
+}
+.rquote{
+	margin-top:50px;
+}
+.footerz{
+	margin-bottom:60px;
+	margin-top:120px;
+}
+.spacing{
+	padding-top: 50px;
+	background-color: black;
+}
+.tiny{
+	margin-bottom:87px;margin-top:106px;text-align:center;
+}
+.heads{
+	height:650px;background-color:#fcdb00;
+}
+
+@media only screen and (max-width: 1024px){
+	.full{
+		text-align: left;
+	}
+		.btt{
+	margin-top:15.5%;margin-bottom:120px;
+	}
+	.txt{
+		width: 340px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+.tiny{
+	margin-bottom:87px;margin-top:50px;text-align:center;
+}
+.inpsire{
+	font-size: 15px;
+}
+.header{
+	height: 200px;
+}
+.full{
+	text-align: center;
+}
+	.txt{
+		width: 200px;
+		padding:10px;
+	}
+	.wtf{
+		font-size: 20px;
+	}
+	.inspire{
+		font-size: 30px;
+		text-align: center;
+	}
+	.btt{
+	margin-top:15.5%;margin-bottom:180px;
+	}
+	.icon{
+		text-align: center;
+	}
+	.standard{
+		padding-bottom: 20px;
+	}
+	.works{
+		padding-top: 20px;
+	}
+	.rquote{
+		text-align: right;
+		margin-top: 0px;
+		padding-top:0px;
+	}
+	.foot{
+		font-size: 10px;
+	}
+	.footerz{
+		margin-bottom:30px;
+		margin-top:50px;
+	}
+	.spacing{
+		padding-top: 100px;
+		background-color: black;
+	}
+}
+
