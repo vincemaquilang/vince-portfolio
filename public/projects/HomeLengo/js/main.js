@@ -47,18 +47,18 @@
     var retina = window.devicePixelRatio > 1 ? true : false;
     if (retina) {
       $("#site-logo-inner").find("img").attr({
-        src: "assets/images/logo/logo@2x.png",
+        src: "assets/images/logo/logo.png",
         width: "197",
         height: "48",
       });
 
       $("#logo-footer.style").find("img").attr({
-        src: "assets/images/logo/logo-footer@2x.png",
+        src: "assets/images/logo/logo-footer.png",
         width: "197",
         height: "48",
       });
       $("#logo-footer.style2").find("img").attr({
-        src: "assets/images/logo/logo@2x.png",
+        src: "assets/images/logo/logo.png",
         width: "197",
         height: "48",
       });
@@ -131,11 +131,11 @@
           if ($(window).scrollTop() > 0) {
             nav.addClass("is-fixed");
             injectSpace.show();
-            $("#trans-logo").attr("src", "images/logo/logo@2x.png");
+            $("#trans-logo").attr("src", "images/logo/logo.png");
           } else {
             nav.removeClass("is-fixed");
             injectSpace.hide();
-            $("#trans-logo").attr("src", "images/logo/logo@2x-white.png");
+            $("#trans-logo").attr("src", "images/logo/logo-white.png");
           }
         });
       }
