@@ -56,16 +56,17 @@
         color:white;
         border:1px solid #e2983d;
     }
+
 </style>
 </head>
 
 <body class="pilling-page" data-spy="scroll" data-target="#scrollspy" data-offset="1">
 
-    <!--  Pre Loader  -->
+        <!--  Pre Loader  -->
     <div id="overlayer">
         <span class="spinner-grow spinner-grow-lg loader" role="status" aria-hidden="true"></span>
     </div>
-
+    
     <!-- Blog Single Modal -->
     <div class="blog-single modal fade" id="blog-single" tabindex="-1" role="dialog"
         aria-labelledby="blogModalScrollable" aria-hidden="true">
@@ -86,7 +87,7 @@
                                     <div class="rounded px-lg-5">
                                         <div class="text-md-left">
                                             <h4 class="mb-4">The best way to become a good web designer</h4>
-                                            <img src="images/blog-single-01.jpg" alt class="img-fluid w-100 rounded">
+                                            <img src="images/blog-single-01.jpg" alt class="img-fluid w-100 rounded" fetchpriority="high">
                                             <span class="d-inline-block py-4"> 1 April 2019
                                                 / By <span class="purple-color text-right"> John Doe. </span>
                                             </span>
@@ -225,7 +226,7 @@
                                     </div>
                                     <div class="mt-5">
                                         <div class="portfolio-single-item">
-                                            <img src="images/005.jpg" class="d-block w-100 rounded" alt="...">
+                                            <img src="images/005.jpg" class="d-block w-100 rounded" alt="..." fetchpriority="high">
                                         </div>
                                     </div>
                                     <div class="text-md-left mt-5">
@@ -312,7 +313,6 @@
         </div>
         <!--    Overlay Menu End    -->
 
-
         <!--    Hero Start    -->
         <section class="section pp-scrollable hero" id="hero">
             <div class="display-table">
@@ -324,7 +324,7 @@
                         <div class="row">
                             <div class=" col-lg-4">
                                 <div class="personal-img">
-                                    <img src="images/about.jpg" alt="/" class="img-thumbnail">
+                                    <img src="images/about.jpg" alt="/" class="img-thumbnail" fetchpriority="high">
                                 </div>
                             </div>
                             <div class="col-lg-8 personal-item">
@@ -369,252 +369,6 @@
             </div>
         </section>
         <!--    Hero End    -->
-
-        <!--  Portfolio Start  -->
-        <section id="portfolio" class="section pp-scrollable portfolio">
-            <div class="display-table">
-                <div class="display-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="title-small">
-                                <p class="text-dark">Portfolio</p>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="text-left">
-                                    <h2 class="text-dark">Creative <span class="base-color">Works</span></h2>
-                                    <p class="text-muted mx-auto section-subtitle mt-3">Meet My Awesome Works and Enjoy
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <!--   Portfolio Filters   -->
-                            <ul id="portfolio-filter"
-                                class="list-unstyled list-inline mb-0 col-lg-12 text-left portfolio-filter">
-                                <li class="list-inline-item">
-                                    <a href="#" data-filter="*" class="active my-1">All</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#" data-filter=".webdesign" class="my-1">Web Design</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#" data-filter=".graphic" class="my-1">Graphic</a>
-                                </li>
-                                <!-- <li class="list-inline-item">
-                                    <a href="#" data-filter=".mobiledesign" class="my-1">Mobile Design</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#" data-filter=".seo" class="my-1">Seo</a>
-                                </li> -->
-                            </ul>
-                        </div>
-                        <div class="portfolio-items mt-4 row">
-                            <!-- Item 01 -->
-                            <div class="col-lg-4 portfolio-item my-3 webdesign">
-                                <div class="portfolio-item-content">
-                                    <a href="projects/DishciderAI/index.html" target="blank">
-                                    <img src="images/dishcider-ai.png" class="rounded" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <h5 class="text-white mt-3 mb-0">Dishcider AI</h5>
-                                        </div>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- Item 02 -->
-                             <div class="col-lg-4 portfolio-item my-3 webdesign">
-                                <div class="portfolio-item-content">
-                                    <a href="projects/HomeLengo/index.html" target="blank">
-                                    <img src="images/homelengo.png" class="rounded" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <h5 class="text-white mt-3 mb-0">HomeLengo</h5>
-                                        </div>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- Item 03 -->
-                            <div class="col-lg-4 portfolio-item my-3 webdesign">
-                                <div class="portfolio-item-content">
-                                    <a href="projects/CommuniTree/index.html" target="blank">
-                                    <img src="images/communitree.png" class="rounded" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <h5 class="text-white mt-3 mb-0"></h5>
-                                        </div>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- Item 04 -->
-                             <div class="col-lg-4 portfolio-item my-3 webdesign">
-                                <div class="portfolio-item-content">
-                                    <a href="projects/TinyOne/index.html" target="blank">
-                                    <img src="images/tinyone.png" class="rounded" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <h5 class="text-white mt-3 mb-0">TinyOne</h5>
-                                        </div>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- Item 05 -->
-                             <div class="col-lg-4 portfolio-item my-3 webdesign">
-                                <div class="portfolio-item-content">
-                                    <a href="projects/HomeLengoDashboard/dashboard.html" target="blank">
-                                    <img src="images/homelengo-dashboard.png" class="rounded" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <h5 class="text-white mt-3 mb-0">HomeLengo Dashboard</h5>
-                                        </div>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- Item 06 -->
-                            <div class="col-lg-4 portfolio-item my-3 graphic">
-                                <div class="portfolio-item-content">
-                                    <img src="images/007.jpg" class="rounded" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="images/007.jpg" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">Graphic 1</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Item 07 -->
-                            <div class="col-lg-4 portfolio-item my-3 graphic">
-                                <div class="portfolio-item-content">
-                                    <img src="images/009.jpg" class="rounded" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="images/009.jpg" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">Graphic 2</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Item 08 -->
-                            <div class="col-lg-4 portfolio-item my-3 graphic">
-                                <div class="portfolio-item-content">
-                                    <img src="images/006.jpg" class="rounded" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="images/006.jpg" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">Graphics 3</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Item 09 -->
-                            <div class="col-lg-4 portfolio-item my-3 graphic">
-                                <div class="portfolio-item-content">
-                                    <img src="images/008.jpg" class="rounded" alt="/">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="images/008.jpg" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">Graphic 4</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--   Portfolio End   -->
-
-
-        <!--   Resume Start   -->
-        <section id="resume" class="section pp-scrollable resume">
-            <div class="display-table">
-                <div class="display-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="title-small">
-                                <p class="text-dark">Resume</p>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="text-left">
-                                    <h2 class="text-dark mb-3">My <span class="base-color">Resume</span></h2>
-                                    <p class="text-muted">I Am Available For Freelance Projects.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-lg-6">
-                                <h3 class="text-dark mb-2"><i class="lni-graduation base-color"></i>Education</h3>
-                                <ul class="timeline">
-                                    <li>
-                                        <h6 class="base-color mb-0">Studied at Cordova Public College</h6>
-                                        <small class="text-muted ">2015 - 2019</small>
-                                        <p class="text-dark py-3">
-                                            I studied BSIT at Cordova Public College in Gabi, Cordova, Cebu. The education and hands-on projects there were instrumental in shaping me into the software developer I am today.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h6 class="base-color mb-0">Studied at Cordova Catholic Cooperative School</h6>
-                                        <small class="text-muted ">2011 - 2015</small>
-                                        <p class="text-dark py-3">
-                                            I attended high school at Cordova Catholic Cooperative School, formerly Cordova Academy, in Poblacion, Cordova, Cebu. The school's focus on academic excellence and values-based education significantly shaped my educational and moral foundation.
-                                        </p>
-                                    </li>
-                                   
-                                </ul>
-                            </div>
-                            <div class="col-lg-6">
-                                <h3 class="text-dark mb-2 mt-5 mt-lg-0"><i class="lni-pencil base-color"></i>Experience
-                                </h3>
-                                <ul class="timeline">
-                                    <li>
-                                        <h6 class="base-color mb-0">Software Developer at LponderGroup INC.</h6>
-                                        <small class="text-muted ">May 20, 2020 - Present</small>
-                                        <p class="text-dark py-3">
-                                            Maintaining existing backoffice system about a company that develops and manages manufactured home communities across the United States that caters Resident Management, Property Management, Accounting, Reporting and Analytics etc.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h6 class="base-color mb-0">Software Developer at Link Malloc</h6>
-                                        <small class="text-muted ">April 1, 2019 - March 30, 2020</small>
-                                        <p class="text-dark py-3">We've developed cloud server-based web applications, handled domain registration and SSL security, and utilized Jekyll with Bootstrap for responsive front-end design.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <h6 class="base-color mb-0">On-The-Job Training at Borderless-Cebu INC</h6>
-                                        <small class="text-muted ">April 2018 - September 2018</small>
-                                        <p class="text-dark py-3">
-                                            I designed promotional doll websites using Bootstrap and managed doll listings in the database, gaining valuable skills in web development and database management.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--   Resume End   -->
 
         <!--   Services Start   -->
         <section id="services" class="section pp-scrollable services">
@@ -720,6 +474,247 @@
             </div>
         </section>
         <!--   Services End   -->
+
+        <!--  Portfolio Start  -->
+        <section id="portfolio" class="section pp-scrollable portfolio">
+            <div class="display-table">
+                <div class="display-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="title-small">
+                                <p class="text-dark">Portfolio</p>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="text-left">
+                                    <h2 class="text-dark">Creative <span class="base-color">Works</span></h2>
+                                    <p class="text-muted mx-auto section-subtitle mt-3">Meet My Awesome Works and Enjoy
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <!--   Portfolio Filters   -->
+                            <ul id="portfolio-filter"
+                                class="list-unstyled list-inline mb-0 col-lg-12 text-left portfolio-filter">
+                                <li class="list-inline-item">
+                                    <a href="#" data-filter="*" class="active my-1">All</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" data-filter=".webdesign" class="my-1">Web Design</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" data-filter=".graphic" class="my-1">Graphic</a>
+                                </li>
+                                <!-- <li class="list-inline-item">
+                                    <a href="#" data-filter=".mobiledesign" class="my-1">Mobile Design</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" data-filter=".seo" class="my-1">Seo</a>
+                                </li> -->
+                            </ul>
+                        </div>
+                        <div class="portfolio-items mt-4 row">
+                            <!-- Item 01 -->
+                            <div class="col-lg-4 portfolio-item my-3 webdesign">
+                                <div class="portfolio-item-content">
+                                    <a href="https://goironfort.com/us" target="blank">
+                                    <img src="images/ironfort.png" class="rounded" alt="/" fetchpriority="high">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <h5 class="text-white mt-3 mb-0">Ironfort</h5>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Item 02 -->
+                             <div class="col-lg-4 portfolio-item my-3 webdesign">
+                                <div class="portfolio-item-content">
+                                    <a href="projects/HomeLengo/index.html" target="blank">
+                                    <img src="images/homelengo.png" class="rounded" alt="/" fetchpriority="high">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <h5 class="text-white mt-3 mb-0">HomeLengo</h5>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Item 03 -->
+                            <div class="col-lg-4 portfolio-item my-3 webdesign">
+                                <div class="portfolio-item-content">
+                                    <a href="projects/CommuniTree/index.html" target="blank">
+                                    <img src="images/communitree.png" class="rounded" alt="/" fetchpriority="high">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <h5 class="text-white mt-3 mb-0">CommuniTree</h5>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Item 04 -->
+                            <div class="col-lg-4 portfolio-item my-3 webdesign">
+                                <div class="portfolio-item-content">
+                                    <a href="projects/DishciderAI/index.html" target="blank">
+                                    <img src="images/dishcider-ai.png" class="rounded" alt="/" fetchpriority="high">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <h5 class="text-white mt-3 mb-0">Dishcider AI</h5>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Item 05 -->
+                            <div class="col-lg-4 portfolio-item my-3 webdesign">
+                                <div class="portfolio-item-content">
+                                    <a href="https://salutpierre.com/" target="blank">
+                                    <img src="images/salut-pierre.png" class="rounded" alt="/" fetchpriority="high">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <h5 class="text-white mt-3 mb-0">Salut Pierre</h5>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Item 06 -->
+                             <div class="col-lg-4 portfolio-item my-3 webdesign">
+                                <div class="portfolio-item-content">
+                                    <a href="projects/HomeLengoDashboard/dashboard.html" target="blank">
+                                    <img src="images/homelengo-dashboard.png" class="rounded" alt="/" fetchpriority="high">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <h5 class="text-white mt-3 mb-0">HomeLengo Dashboard</h5>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Item 07 -->
+                            <div class="col-lg-4 portfolio-item my-3 webdesign">
+                                <div class="portfolio-item-content">
+                                    <a href="projects/TinyOne/index.html" target="blank">
+                                    <img src="images/tinyone.png" class="rounded" alt="/" fetchpriority="high">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <h5 class="text-white mt-3 mb-0">TinyOne</h5>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Item 08 -->
+                            <div class="col-lg-4 portfolio-item my-3 graphic">
+                                <div class="portfolio-item-content">
+                                    <img src="images/006.jpg" class="rounded" alt="/" fetchpriority="high">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <a href="images/006.jpg" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">Graphics 3</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 09 -->
+                            <div class="col-lg-4 portfolio-item my-3 graphic">
+                                <div class="portfolio-item-content">
+                                    <img src="images/008.jpg" class="rounded" alt="/" fetchpriority="high">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <a href="images/008.jpg" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">Graphic 4</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--   Portfolio End   -->
+
+
+        <!--   Resume Start   -->
+        <section id="resume" class="section pp-scrollable resume">
+            <div class="display-table">
+                <div class="display-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="title-small">
+                                <p class="text-dark">Resume</p>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="text-left">
+                                    <h2 class="text-dark mb-3">My <span class="base-color">Resume</span></h2>
+                                    <p class="text-muted">I Am Available For Freelance Projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-lg-6">
+                                <h3 class="text-dark mb-2"><i class="lni-graduation base-color"></i>Education</h3>
+                                <ul class="timeline">
+                                    <li>
+                                        <h6 class="base-color mb-0">Studied at Cordova Public College</h6>
+                                        <small class="text-muted ">2015 - 2019</small>
+                                        <p class="text-dark py-3">
+                                            I studied BSIT at Cordova Public College in Gabi, Cordova, Cebu. The education and hands-on projects there were instrumental in shaping me into the software developer I am today.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6 class="base-color mb-0">Studied at Cordova Catholic Cooperative School</h6>
+                                        <small class="text-muted ">2011 - 2015</small>
+                                        <p class="text-dark py-3">
+                                            I attended high school at Cordova Catholic Cooperative School, formerly Cordova Academy, in Poblacion, Cordova, Cebu. The school's focus on academic excellence and values-based education significantly shaped my educational and moral foundation.
+                                        </p>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <h3 class="text-dark mb-2 mt-5 mt-lg-0"><i class="lni-pencil base-color"></i>Experience
+                                </h3>
+                                <ul class="timeline">
+                                    <li>
+                                        <h6 class="base-color mb-0">Software Developer at LponderGroup INC.</h6>
+                                        <small class="text-muted ">May 20, 2020 - Present</small>
+                                        <p class="text-dark py-3">
+                                            Maintaining existing backoffice system about a company that develops and manages manufactured home communities across the United States that caters Resident Management, Property Management, Accounting, Reporting and Analytics etc.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6 class="base-color mb-0">Software Developer at Link Malloc</h6>
+                                        <small class="text-muted ">April 1, 2019 - March 30, 2020</small>
+                                        <p class="text-dark py-3">We've developed cloud server-based web applications, handled domain registration and SSL security, and utilized Jekyll with Bootstrap for responsive front-end design.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6 class="base-color mb-0">On-The-Job Training at Borderless-Cebu INC</h6>
+                                        <small class="text-muted ">April 2018 - September 2018</small>
+                                        <p class="text-dark py-3">
+                                            I designed promotional doll websites using Bootstrap and managed doll listings in the database, gaining valuable skills in web development and database management.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--   Resume End   -->
 
         <!--   Contact Start   -->
         <section id="contact" class="section pp-scrollable contact">

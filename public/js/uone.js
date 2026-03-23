@@ -48,13 +48,13 @@ $window.on("load", (function() {
 function pagePilling(){
     $('#pagepiling').pagepiling({
         sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff','#fff', '#fff' ,'#fff' ,'#fff'],
-        anchors: ['home', 'portfolio', 'resume', 'services','contact','footer'],
+        anchors: ['home', 'services', 'portfolio', 'resume','contact','footer'],
         menu: '#myMenu',
         direction: 'vertical',
         verticalCentered: true,
         navigation: {
             'position': 'right',
-            'tooltips': ['HOME','PORTFOLIO', 'RESUME', 'SERVICES', 'CONTACT', 'FOOTER']
+            'tooltips': ['HOME','SERVICES', 'PORTFOLIO', 'RESUME', 'CONTACT', 'FOOTER']
         },
         loopBottom: true,
         loopTop: true,
